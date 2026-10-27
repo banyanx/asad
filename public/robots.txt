@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Canonical Sitemap location
-Sitemap: https://ais-pre-dyinetq4rdgil46chxjxjg-455429692949.europe-west3.run.app/sitemap.xml
+Sitemap: https://sarhglass.netlify.app/sitemap.xml
