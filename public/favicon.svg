@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Hexagon -->
+  <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" fill="#0B0F19" stroke="url(#goldGrad)" stroke-width="4" stroke-linejoin="round" />
+
+  <!-- Inner Steel Frame Accent -->
+  <polygon points="50,11 85,29 85,71 50,89 15,71 15,29" fill="none" stroke="url(#steelGrad)" stroke-width="1.5" stroke-opacity="0.6" stroke-linejoin="round" />
+
+  <!-- Central Faceted Glass Tower -->
+  <polygon points="50,18 64,36 50,78 36,36" fill="url(#glassGrad)" stroke="#E0F2FE" stroke-width="1" />
+  
+  <!-- Facet Left -->
+  <polygon points="50,18 36,36 50,78" fill="#0284C7" fill-opacity="0.8" />
+  <!-- Facet Right -->
+  <polygon points="50,18 64,36 50,78" fill="#38BDF8" fill-opacity="0.9" />
+  
+  <!-- Left Steel Pillar -->
+  <polygon points="26,44 34,36 34,74 26,68" fill="url(#steelGrad)" />
+  <!-- Right Gold Pillar -->
+  <polygon points="74,44 66,36 66,74 74,68" fill="url(#goldGrad)" />
+
+  <!-- Arabic Calligraphy "ص" or Architectural Base -->
+  <path d="M30 82 C38 85, 62 85, 70 82" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+</svg>
